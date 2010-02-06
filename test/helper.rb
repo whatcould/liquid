@@ -13,7 +13,7 @@ module Test
     module Assertions
         include Liquid
         def assert_template_result(expected, template, assigns={}, message=nil)
-          assert_equal expected, Template.parse(template).render(assigns)
+          assert_equal expected, Template.parse(template).render(assigns), message
         end 
     end
   end

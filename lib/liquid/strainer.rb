@@ -9,7 +9,7 @@ module Liquid
   end
 
   # Strainer is the parent class for the filters system.
-  # New filters are mixed into the strainer class which is then instanciated for each liquid template render run.
+  # New filters are mixed into the strainer class which is then instantiated for each liquid template render run.
   #
   # One of the strainer's responsibilities is to keep malicious method calls out
   class Strainer < parent_object #:nodoc:
